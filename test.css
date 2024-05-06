@@ -1,0 +1,30 @@
+@font-face {
+    font-family: customFont;
+    src: url('zh-cn.ttf') format('truetype');
+}
+
+body {
+    background-color: #445469;
+    color: white;
+    font-family: customFont;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Thêm border ngăn cách giữa các câu truyện */
+p {
+    margin: 30px 0; /* Khoảng cách 20px ở trên và dưới */
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    padding: 10px; /* Thêm padding để tạo khoảng cách giữa border và nội dung */
+    border: 3px solid black;/* Border đen có độ dày 1px */
+    border-radius: 10px; /* Tạo vòng bo cho border */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+
+span {
+    font-weight: bold;
+}
